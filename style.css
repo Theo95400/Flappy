@@ -4,15 +4,28 @@ body{
     justify-content: center;
 }
 #fond{
-    width:400px;
-    height: 470px;
+    width:300px;
+    height: 450px;
     background-image: url(background.png);
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    overflow: hidden;
+    position: relative
     
 }
 
 #flappy{
-    width: 50px;
+    width: 30px;
+    
+}
+
+
+#pipe{
+    background-image:url(pipe.png);
+    position: absolute;
+    right: 10%;
+    top:-60%;
+    width: 60px;
+    height: 450px;
 }

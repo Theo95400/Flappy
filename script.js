@@ -1,21 +1,3 @@
-function saut() {
-$("#flappy").animate({marginBottom: '+=100px'}, 100, "swing");
-}
-
-function deplacement_vertical (sens){
-    if(sens == 1 ){
-        deplacement = "+=100px"
-    }
-    else{
-        deplacement = "-=100px"
-    }
-    $("#flappy").animate({ "marginTop": deplacement
-    },500,"swing");
-    
-}
-
-
-
 function bougerHaut(){
 $("#flappy").animate({marginBottom:'+=100px'}, speed=200, easing="swing");
      }
@@ -66,3 +48,4 @@ $(document).keyup(function(touche){
                 bougerDroite();
            }
 });
+
