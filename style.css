@@ -1,0 +1,18 @@
+body{
+    background-image:darkgray;
+    display: flex;
+    justify-content: center;
+}
+#fond{
+    width:400px;
+    height: 470px;
+    background-image: url(background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+
+#flappy{
+    width: 50px;
+}
