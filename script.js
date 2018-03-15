@@ -49,3 +49,6 @@ $(document).keyup(function(touche){
            }
 });
 
+$("#pipe").animate({
+    marginRight:"+=450px"
+},2000);
